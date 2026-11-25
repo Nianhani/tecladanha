@@ -13,22 +13,22 @@
   <key role="action" key0="0" s="_" />
 </row>
    <row>
-    <key c="q" se="/" nw="hide_self" sw="loc esc"/>
+    <key c="q" se="/" nw="hide_self" sw="loc esc" />
     <key c="w" s="?"/>
-    <key c="e" s="accent_tilde" se="accent_aigu" sw="accent_grave" n="accent_circonflexe" ne="é" />
+    <key c="e" s="accent_tilde" se="accent_aigu" sw="accent_grave" nw="accent_circonflexe" ne="é" e="é" />
     <key c="r" />
     <key c="t" />
     <key c="y" se=","/>
-    <key c="u" s="accent_tilde" se="accent_aigu" sw="accent_grave" n="accent_circonflexe" ne="ú" />
-    <key c="i" s="accent_tilde" se="accent_aigu" sw="accent_grave" nw="accent_circonflexe" ne="í" />
-    <key c="o" s="accent_tilde" se="accent_aigu" sw="accent_grave" n="õ" ne="ó" nw="ô" />
+    <key c="u" s="accent_tilde" se="accent_aigu" sw="accent_grave" nw="accent_circonflexe" ne="ú" e="ú" />
+    <key c="i" s="accent_tilde" se="accent_aigu" sw="accent_grave" nw="accent_circonflexe" ne="í" e="í" />
+    <key c="o" s="accent_tilde" se="accent_aigu" sw="accent_grave" n="õ" ne="ó" nw="ô" e="ó" />
     <key c="p" s="accent_grave" ne="hide_self" />
   </row>
   <row>
     <key width="1.5" c="a" s="accent_tilde" se="accent_aigu" sw="accent_grave" n="ã" ne="á" nw="à" />
-    <key c="s" ne="loc §" sw="loc ß"/> 
-    <key c="d"/>
-    <key c="f"/>
+    <key c="s" ne="loc §" sw="loc ß" w="left" n="up" s="down" e="right" /> 
+    <key c="d" w="left" n="up" s="down" e="right" />
+    <key c="f" w="left" n="up" s="down" e="right" />
     <key c="g" se="." ne="&quot;" />
     <key c="h" w="left" n="up" s="down" e="right" />
     <key c="j" w="left" n="up" s="down" e="right" />
@@ -36,7 +36,7 @@
     <key width="1.5" c="l" w="left" n="up" s="down" e="right" se="~"/>
   </row>
   <row>
-    <key width="1.5" c="shift" ne="loc tab"/>
+    <key width="1.5" c="shift" ne="loc tab" s="capslock" />
     <key c="z" sw="\"/>
     <key c="x" ne="loc †"/>
     <key c="c" nw="ç" s="ç" />
