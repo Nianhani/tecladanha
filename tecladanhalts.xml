@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard name="QWERTY (US)" script="latin">
+  <row>
+    <key c="q" se="/" nw="hide_self" ne="1" sw="loc esc"/>
+    <key c="w" s="?" nw="~" ne="2" sw="\@"/>
+    <key c="e" n="accent_tilde" nw="!" ne="3" sw="\#" se="accent_aigu"/>
+    <key c="r" ne="4" sw="$"/>
+    <key c="t" ne="5" sw="%"/>
+    <key c="y" ne="6" sw="^"/>
+    <key c="u" ne="7" sw="&amp;"/>
+    <key c="i" ne="8" sw="*" s="accent_aigu" />
+    <key c="o" ne="9" sw="(" se=")" n="_" s="accent_tilde" />
+    <key c="p" ne="0" s="accent_circonflexe" ne="hide_self" />
+  </row>
+  <row>
+    <key width="1.5" c="a" se="!" n="loc tab" s="accent_tilde" ne="`"/>
+    <key c="s" ne="loc §" sw="loc ß"/>
+    <key c="d"/>
+    <key c="f"/>
+    <key c="g" se="," ne="." />
+    <key c="h" w="left" nw="left" se="," ne="&quot;" />
+    <key c="j" se="}" ne="{" w="down" n="down" />
+    <key c="k" ne="[" se="]" n="up" w="up" />
+    <key width="1.5" c="l" se="|" nw="right" w="right" />
+  </row>
+  <row>
+    <key width="1.5" c="shift" ne="loc tab"/>
+    <key c="z" sw="\"/>
+    <key c="x" ne="loc †"/>
+    <key c="c" nw="ç" s="ç" />
+    <key c="v" ne="&gt;" s="=" se="+" nw="&lt;" sw="-" />
+    <key c="b" n="\?" se="=" />
+    <key c="n" nw=":" ne=";" sw="," />
+    <key c="m" niw="&quot;" nw="?" sw="." se="'" />
+    <key width="1.5" c="backspace" n="delete"/>
+  </row>
+</keyboard>

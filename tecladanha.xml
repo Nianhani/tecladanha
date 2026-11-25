@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <keyboard name="anha" script="latin" bottom_row="false">
+  <row height="0.75">
+  <key role="action" key0="1" sw="'" se="!"/>
+  <key role="action" key0="2" se="@"/>
+  <key role="action" key0="3" se="#"/>
+  <key role="action" key0="4" se="$"/>
+  <key role="action" key0="5" se="%"/>
+  <key role="action" key0="6" sw="^"/>
+  <key role="action" key0="7" sw="&amp;"/>
+  <key role="action" key0="8" sw="*"/>
+  <key role="action" key0="9" s="=" se="+" sw="-"/>
+  <key role="action" key0="0" s="_" />
+</row>
+   <row>
+    <key c="q" se="/" nw="hide_self" sw="loc esc"/>
+    <key c="w" s="?"/>
+    <key c="e" s="accent_tilde" se="accent_aigu" sw="accent_grave" n="accent_circonflexe" ne="é" />
+    <key c="r" />
+    <key c="t" />
+    <key c="y" se=","/>
+    <key c="u" s="accent_tilde" se="accent_aigu" sw="accent_grave" n="accent_circonflexe" ne="ú" />
+    <key c="i" s="accent_tilde" se="accent_aigu" sw="accent_grave" nw="accent_circonflexe" ne="í" />
+    <key c="o" s="accent_tilde" se="accent_aigu" sw="accent_grave" n="õ" ne="ó" nw="ô" />
+    <key c="p" s="accent_grave" ne="hide_self" />
+  </row>
+  <row>
+    <key width="1.5" c="a" n="accent_tilde" ne="accent_aigu" nw="accent_grave" s="ã" se="á" sw="à" />
+    <key c="s" ne="loc §" sw="loc ß"/> 
+    <key c="d"/>
+    <key c="f"/>
+    <key c="g" se="." ne="&quot;" />
+    <key c="h" w="left" n="up" s="down" e="right" />
+    <key c="j" w="left" n="up" s="down" e="right" />
+    <key c="k" w="left" n="up" s="down" e="right" />
+    <key width="1.5" c="l" w="left" n="up" s="down" e="right" se="~"/>
+  </row>
+  <row>
+    <key width="1.5" c="shift" ne="loc tab"/>
+    <key c="z" sw="\"/>
+    <key c="x" ne="loc †"/>
+    <key c="c" nw="ç" s="ç" />
+    <key c="v" ne="&gt;" nw="&lt;" sw="(" se=")" />
+    <key c="b" n="\?" sw="{" se="}" />
+    <key c="n" nw=":" ne=";" sw="[" se="]"/>
+    <key c="m" ne="&quot;" nw="?" sw="."  se="," />
+    <key width="1.5" c="backspace" n="delete"/>
+  </row>
+<row height="0.95">
+  <key width="1.7" role="action" key0="ctrl" key1="`" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
+  <key width="1.1" role="action" key0="fn" key1="loc alt" key2="|" key3="loc voice_typing" key4="config"/>
+  <key width="4.4" role="space_bar" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right" key7="cursor_up" key8="cursor_down"/>
+  <key width="1.1" role="action" key0="loc compose" key7="up" key6="right" key5="left" key8="down" key1="loc home" key2="loc page_up" key3="loc end" key4="loc page_down"/>
+  <key width="1.7" role="action" key0="enter" key7="action"/>
+</row>
+</keyboard>
