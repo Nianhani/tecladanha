@@ -26,7 +26,7 @@
   </row>
   <row>
     <key width="1.5" c="a" s="accent_tilde" se="accent_aigu" sw="accent_grave" n="ã" ne="á" nw="à" />
-    <key c="s" ne="loc §" sw="loc ß" w="left" n="up" s="down" e="right" /> 
+    <key c="s" ne="loc §" sw="loc ß" w="left" n="up" s="down" e="right" />
     <key c="d" w="left" n="up" s="down" e="right" />
     <key c="f" w="left" n="up" s="down" e="right" />
     <key c="g" se="." ne="&quot;" />
